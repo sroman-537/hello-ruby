@@ -15,3 +15,8 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+shopping_list1 = ["milk","eggs","bacon"]
+shopping_list2 = ["beer","cookies","apples", "bacon"]
+
+masterlist = shopping_list1 + shopping_list2
+puts masterlist.sort.uniq
